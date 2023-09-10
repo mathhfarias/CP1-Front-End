@@ -1,43 +1,53 @@
-
-
-
+/*Começo da página*/
 body{
     background-color: #707070;
 }
 
 
-
+/*Primeiro parágrafo*/
 h1{
     color: #fff;
     text-align: center;
     font-size: 30px;
-    
 }
- #titulo1{
-    background-size: 
+
+/*Titulo principal da página*/
+#titulo1{
     background-color: blanchedalmond ;
     border: 1px solid black;
-    
-    
+}
 
- }
+/*Imagem principal*/
 .Imagem1{
     text-align: center;
 }
 
+/*Começo do texto*/
 p{
     color:#fff
-    
 }
 
-h3{
-    color: red;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+.container{
+    display: flex;
+}
 
+#text-2{
+    text-align: justify;
+}
+
+/*Terceira imagem da página*/
+#Imagem-3{
+    float: right;
 }
 
 #section{
     font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Todos os direitos reservados*/
+h3{
+    color: red;
+    text-align:center;
     font-family: Arial, Helvetica, sans-serif;
 }
